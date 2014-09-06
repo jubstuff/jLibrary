@@ -1,0 +1,260 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADJ_LIST	jEdgeSet.h	/^	ADJ_LIST,  \/**< Lista di adiacenza *\/$/;"	e	enum:__anon3
+ADJ_MATRIX	jEdgeSet.h	/^	ADJ_MATRIX \/**< Matrice di adiacenza *\/$/;"	e	enum:__anon3
+APPLY	common.h	/^typedef void (*APPLY)(void **Value, void *Input);$/;"	t
+APPLY_ARRAY	common.h	/^typedef void (*APPLY_ARRAY)(void **Value, int Index, void *Input);$/;"	t
+ActiveRappr	jEdgeSet.h	/^	ESET_TYPE ActiveRappr;   \/**< Rappresentazione attualmente attiva dell'insieme *\/$/;"	m	struct:j_edge_set
+ActiveVertices	jEdgeSet.h	/^	J_ARRAY *ActiveVertices; \/**< Vertici attivi nella matrice *\/$/;"	m	struct:j_edge_set
+AddEdgeAdjList	jEdgeSet.c	/^static J_STATUS AddEdgeAdjList(J_VERTEX *Source, J_VERTEX *Destination, double Weight, J_EDGE_SET *Eset)$/;"	f	file:
+AdjLists	jEdgeSet.h	/^	J_ARRAY *AdjLists;       \/**< Vettore delle liste di adiacenza *\/$/;"	m	struct:j_edge_set
+AdjMatrix	jEdgeSet.c	/^	J_MATRIX *AdjMatrix;$/;"	m	struct:__anon2	file:
+AdjMatrix	jEdgeSet.h	/^	J_MATRIX *AdjMatrix;     \/**< Matrice di adiacenza *\/$/;"	m	struct:j_edge_set
+AllocaMetodi	jList.h	/^	int AllocaMetodi;  \/**< Flag che indica l'allocazione della struct dei metodi *\/$/;"	m	struct:list_tag
+Array	jArray.h	/^	void **Array;         \/**< Array *\/$/;"	m	struct:j_array_tag
+BLACK	jVertex.h	/^	BLACK$/;"	e	enum:__anon6
+Buckets	jSet.h	/^	J_LIST **Buckets; \/**< Array di liste *\/$/;"	m	struct:j_set_tag
+COLOR	jVertex.h	/^} COLOR;$/;"	t	typeref:enum:__anon6
+COMPARATOR	common.h	/^typedef int (*COMPARATOR)(const void *Arg1, const void *Arg2); $/;"	t
+Color	jVertex.h	/^	COLOR Color;$/;"	m	struct:jvertex_tag
+Cols	jMatrix.h	/^	int Cols;             \/**< Numero di colonne attive *\/$/;"	m	struct:jmatrix_tag
+Compare	jList.h	/^	COMPARATOR Compare;        \/**< Confronta due nodi *\/$/;"	m	struct:list_op_tag
+Compare	jSet.h	/^	COMPARATOR Compare;$/;"	m	struct:j_set_methods_tag
+DEFAULT	jMatrix.c	7;"	d	file:
+DEFAULT_SIZE	jArray.c	13;"	d	file:
+DELETER	common.h	/^typedef void (*DELETER)(void *NodeInfo);$/;"	t
+DEL_FN	jIterator.h	/^typedef void  (*DEL_FN)(void *);$/;"	t
+DFS_INFO	jGraph.c	/^} DFS_INFO;$/;"	t	typeref:struct:__anon5	file:
+DUPLICATE	common.h	/^typedef void (*DUPLICATE)( void *Value, void *CurrentNode );$/;"	t
+Data	jIterator.c	/^    void *Data;   \/* Oggetto dell'iteratore *\/$/;"	m	struct:j_iterator_tag	file:
+Data	jVertex.h	/^	void *Data;      \/**< Dati associati al vertice *\/$/;"	m	struct:jvertex_tag
+DeallocaAdjList	jEdgeSet.c	/^void DeallocaAdjList(J_LIST *L) {$/;"	f
+DeallocaEdge	jEdgeSet.c	/^static void DeallocaEdge(J_EDGE *Edge) {$/;"	f	file:
+DeallocaEdge	jGraph.c	/^static void DeallocaEdge( J_EDGE *Edge )$/;"	f	file:
+DeallocaInt	jEdgeSet.c	/^void DeallocaInt( int *Value )$/;"	f
+Delete	jIterator.c	/^    DEL_FN Delete; \/* Funzione per deallocare l'oggetto dell'iteratore *\/$/;"	m	struct:j_iterator_tag	file:
+Delete	jList.h	/^	DELETER Delete;            \/**< Elimina un nodo *\/$/;"	m	struct:list_op_tag
+Delete	jSet.h	/^	DELETER Delete;$/;"	m	struct:j_set_methods_tag
+Delete	jVertex.h	/^	DELETER Delete; \/**< Funzione di deallocazione dei dati associati al vertice *\/$/;"	m	struct:jvertex_tag
+DeleteData	jArray.h	/^	DELETER DeleteData;   \/**< Funzione di deallocazione degli elementi dell'array *\/$/;"	m	struct:j_array_tag
+DeleteData	jMatrix.h	/^	DELETER DeleteData;   \/**< Funzione di deallocazione dei dati *\/$/;"	m	struct:jmatrix_tag
+DeleteVertexData	jGraph.h	/^	DELETER DeleteVertexData;$/;"	m	struct:j_graph_tag
+Destination	jEdgeSet.h	/^	J_VERTEX *Destination; \/**< Destinazione dell'arco *\/$/;"	m	struct:j_edge_tag
+Destination	jGraph.h	/^	J_VERTEX *Destination; \/**< Destinazione dell'arco *\/$/;"	m	struct:j_edge_tag
+DfsVisit	jGraph.c	/^static void DfsVisit(J_VERTEX **Vertex, J_GRAPH *G)$/;"	f	file:
+DfsVisitAdjList	jGraph.c	/^static void DfsVisitAdjList(J_EDGE **Edge, DFS_INFO *Vg)$/;"	f	file:
+DiscoveryTime	jVertex.h	/^	int DiscoveryTime;$/;"	m	struct:jvertex_tag
+Distance	jVertex.h	/^	int Distance;$/;"	m	struct:jvertex_tag
+EDGE_IT	jEdgeSet.c	/^} EDGE_IT;$/;"	t	typeref:struct:__anon2	file:
+ERROR	errors.h	/^	ERROR,           \/**< Errore generico *\/$/;"	e	enum:__anon1
+ESET_TYPE	jEdgeSet.h	/^} ESET_TYPE;$/;"	t	typeref:enum:__anon3
+E_NO_MEM	errors.h	/^	E_NO_MEM,        \/**< Errore in malloc, memoria insufficiente *\/$/;"	e	enum:__anon1
+EdgeCmp	jEdgeSet.c	/^static int EdgeCmp(J_EDGE *Edge1, J_EDGE *Edge2) {$/;"	f	file:
+EdgeCmp	jGraph.c	/^static int EdgeCmp( J_EDGE *Edge1, J_EDGE *Edge2 )$/;"	f	file:
+Edges	jGraph.h	/^	J_EDGE_SET *Edges;$/;"	m	struct:j_graph_tag
+ElemCount	jArray.h	/^	int ElemCount;        \/**< Numero di elementi inseriti nell'array *\/$/;"	m	struct:j_array_tag
+ElemCount	jSet.h	/^	int ElemCount; \/**< Numero di elementi inseriti nell'insieme *\/$/;"	m	struct:j_set_tag
+FinishTime	jVertex.h	/^	int FinishTime;$/;"	m	struct:jvertex_tag
+FreeList	jEdgeSet.h	/^	J_LIST *FreeList;        \/**< Lista delle locazioni libere *\/$/;"	m	struct:j_edge_set
+G	jGraph.c	/^	J_GRAPH *G;$/;"	m	struct:__anon5	file:
+GETTER	common.h	/^typedef void (*GETTER)( const void *NodeValue, void **OutputValue );$/;"	t
+GET_FN	jIterator.h	/^typedef void *(*GET_FN)(void *);$/;"	t
+GRAY	jVertex.h	/^	GRAY,$/;"	e	enum:__anon6
+Get	jIterator.c	/^    GET_FN Get;    \/* Funzione per recuperare il prossimo elemento *\/$/;"	m	struct:j_iterator_tag	file:
+GetNodeValue	jList.h	/^	GETTER GetNodeValue;       \/**< Recupera la chiave del nodo *\/$/;"	m	struct:list_op_tag
+GetVertexAdjList	jEdgeSet.c	/^static J_LIST *GetVertexAdjList(J_VERTEX *V, J_EDGE_SET *Eset)$/;"	f	file:
+Gt	jGraph.c	/^	J_GRAPH *Gt;$/;"	m	struct:__anon4	file:
+HASH	common.h	/^typedef unsigned int (*HASH)(void *Key);$/;"	t
+Hash	jSet.h	/^	HASH Hash; \/**< Funzione di hashing *\/$/;"	m	struct:j_set_tag
+Hash	jSet.h	/^	HASH Hash;$/;"	m	struct:j_set_methods_tag
+HashVertex	jVertex.c	/^unsigned int HashVertex(J_VERTEX *V)$/;"	f
+Head	jList.h	/^	NODE *Head;        \/**< Testa della lista *\/$/;"	m	struct:list_tag
+INFINITE	jEdgeSet.h	23;"	d
+INITIALIZER	common.h	/^typedef void *(*INITIALIZER)( void *Value );$/;"	t
+Id	jVertex.h	/^	int Id;          \/**< ID univoco del vertice *\/$/;"	m	struct:jvertex_tag
+Info	jList.h	/^	void *Info; \/**< Campo del nodo *\/$/;"	m	struct:node_tag
+InitData	jArray.h	/^	INITIALIZER InitData; \/**< Funzione di inizializzazione degli elementi dell'array *\/$/;"	m	struct:j_array_tag
+InitData	jMatrix.h	/^	INITIALIZER InitData; \/**< Funzione di inizializzazione dei dati *\/$/;"	m	struct:jmatrix_tag
+InitNode	jList.h	/^	INITIALIZER InitNode;      \/**< Inizializza un nodo *\/$/;"	m	struct:list_op_tag
+InitVertexData	jGraph.h	/^	INITIALIZER InitVertexData;$/;"	m	struct:j_graph_tag
+InitVerticesForDfsVisit	jGraph.c	/^static void InitVerticesForDfsVisit(J_VERTEX **Vertex, void *Input)$/;"	f	file:
+Initialize	jSet.h	/^	INITIALIZER Initialize;$/;"	m	struct:j_set_methods_tag
+InizializzaAdjList	jEdgeSet.c	/^J_LIST *InizializzaAdjList(void *Input) {$/;"	f
+InizializzaNodoEdge	jEdgeSet.c	/^static J_EDGE *InizializzaNodoEdge(J_EDGE *Value) {$/;"	f	file:
+InizializzaNodoEdge	jGraph.c	/^static J_EDGE *InizializzaNodoEdge( J_EDGE *Value )$/;"	f	file:
+InizializzaNodoInt	jEdgeSet.c	/^int *InizializzaNodoInt( int *Value )$/;"	f
+InsertEdgeInMatrix	jEdgeSet.c	/^static void InsertEdgeInMatrix(J_EDGE **E, EDGE_IT *SourceIdAndMatrix)$/;"	f	file:
+InsertEdges	jGraph.c	/^static void InsertEdges(J_EDGE **Edge, VERTEX_GRAPH *Vg)$/;"	f	file:
+InsertEdgesInTranspose	jGraph.c	/^static void InsertEdgesInTranspose(J_VERTEX **Vertex, J_GRAPH *Gt)$/;"	f	file:
+InsertVertexInTranspose	jGraph.c	/^static void InsertVertexInTranspose(J_VERTEX **Vertex, J_GRAPH *G)$/;"	f	file:
+IsIndexInMatrix	jMatrix.c	/^static int IsIndexInMatrix(int Row, int Col, J_MATRIX *M)$/;"	f	file:
+JArray_Delete	jArray.c	/^J_STATUS JArray_Delete(int Pos, J_ARRAY *A)$/;"	f
+JArray_Destroy	jArray.c	/^void JArray_Destroy( J_ARRAY *A )$/;"	f
+JArray_Get	jArray.c	/^J_STATUS JArray_Get(int Pos, void **Out, J_ARRAY *A)$/;"	f
+JArray_GetElemCount	jArray.c	/^int JArray_GetElemCount(J_ARRAY *A)$/;"	f
+JArray_GetSize	jArray.c	/^int JArray_GetSize(J_ARRAY *A)$/;"	f
+JArray_Map	jArray.c	/^void JArray_Map(APPLY_ARRAY Apply, void *Input, J_ARRAY *A)$/;"	f
+JArray_New	jArray.c	/^J_STATUS JArray_New(int StartSize, INITIALIZER Init, DELETER Delete, J_ARRAY **A)$/;"	f
+JArray_Resize	jArray.c	/^J_STATUS JArray_Resize(int Size, J_ARRAY *A)$/;"	f
+JArray_Set	jArray.c	/^J_STATUS JArray_Set(void *Data, int Pos, J_ARRAY *A)$/;"	f
+JCOMMON_H	common.h	10;"	d
+JEdgeSet_AddEdge	jEdgeSet.c	/^J_STATUS JEdgeSet_AddEdge(J_VERTEX *Source, J_VERTEX *Destination, double Weight, J_EDGE_SET *Eset)$/;"	f
+JEdgeSet_AddVertex	jEdgeSet.c	/^J_STATUS JEdgeSet_AddVertex(J_VERTEX *V, J_EDGE_SET *Eset)$/;"	f
+JEdgeSet_Destroy	jEdgeSet.c	/^void JEdgeSet_Destroy(J_EDGE_SET *Eset) {$/;"	f
+JEdgeSet_GetNextId	jEdgeSet.c	/^int JEdgeSet_GetNextId(J_EDGE_SET *Eset)$/;"	f
+JEdgeSet_GetSize	jEdgeSet.c	/^int JEdgeSet_GetSize(J_EDGE_SET *Eset)$/;"	f
+JEdgeSet_GetVertexCount	jEdgeSet.c	/^int JEdgeSet_GetVertexCount(J_EDGE_SET *Eset)$/;"	f
+JEdgeSet_New	jEdgeSet.c	/^J_STATUS JEdgeSet_New(int Size, J_EDGE_SET **Eset) {$/;"	f
+JEdgeSet_Print	jEdgeSet.c	/^void JEdgeSet_Print(J_EDGE_SET *Eset)$/;"	f
+JEdgeSet_RemoveEdge	jEdgeSet.c	/^J_STATUS JEdgeSet_RemoveEdge(J_VERTEX *Source, J_VERTEX *Destination, J_EDGE_SET *Eset)$/;"	f
+JEdgeSet_RemoveVertex	jEdgeSet.c	/^J_STATUS JEdgeSet_RemoveVertex(J_VERTEX *V, J_EDGE_SET *Eset)$/;"	f
+JEdgeSet_SwitchRepresentation	jEdgeSet.c	/^J_STATUS JEdgeSet_SwitchRepresentation(J_EDGE_SET *Eset)$/;"	f
+JGRAPH_H	jGraph.h	2;"	d
+JGraph_AddEdge	jGraph.c	/^J_STATUS JGraph_AddEdge(J_VERTEX *Source, J_VERTEX *Destination, double Weight, J_GRAPH *G)$/;"	f
+JGraph_AddVertex	jGraph.c	/^J_STATUS JGraph_AddVertex(char *Label, void *Data, J_GRAPH *G)$/;"	f
+JGraph_Destroy	jGraph.c	/^void JGraph_Destroy(J_GRAPH *G)$/;"	f
+JGraph_Dfs	jGraph.c	/^void JGraph_Dfs(J_GRAPH *G)$/;"	f
+JGraph_GetNumVertices	jGraph.c	/^int JGraph_GetNumVertices(J_GRAPH *G)$/;"	f
+JGraph_New	jGraph.c	/^J_STATUS JGraph_New(int HintNumVertices, INITIALIZER InitData, DELETER DelData, J_GRAPH **G)$/;"	f
+JGraph_Print	jGraph.c	/^void JGraph_Print( J_GRAPH *G )$/;"	f
+JGraph_RemoveEdge	jGraph.c	/^J_STATUS JGraph_RemoveEdge(J_VERTEX *Source, J_VERTEX *Destination, J_GRAPH *G)$/;"	f
+JGraph_RemoveVertex	jGraph.c	/^J_STATUS JGraph_RemoveVertex( J_VERTEX *V, J_GRAPH *G )$/;"	f
+JGraph_SearchVertex	jGraph.c	/^J_STATUS JGraph_SearchVertex(char *Label, J_VERTEX **OutValue, J_GRAPH *G)$/;"	f
+JGraph_Transpose	jGraph.c	/^J_STATUS JGraph_Transpose(J_GRAPH *G, J_GRAPH **Gt)$/;"	f
+JGraph_VertexDelete	jGraph.c	/^static void JGraph_VertexDelete( J_VERTEX *V )$/;"	f	file:
+JGraph_VertexInit	jGraph.c	/^static J_VERTEX *JGraph_VertexInit( J_VERTEX *V )$/;"	f	file:
+JIterator_Delete	jIterator.c	/^J_STATUS JIterator_Delete(J_ITERATOR *It)$/;"	f
+JIterator_Get	jIterator.c	/^void *JIterator_Get(J_ITERATOR *It)$/;"	f
+JIterator_New	jIterator.c	/^J_STATUS JIterator_New(void *Data, GET_FN Get, DEL_FN Delete, J_ITERATOR **It)$/;"	f
+JLIST_METHODS	jList.h	/^} JLIST_METHODS;$/;"	t	typeref:struct:list_op_tag
+JList_DeleteNode	jList.c	/^J_STATUS JList_DeleteNode( void *Value, J_LIST *L )$/;"	f
+JList_DeleteRange	jList.c	/^void JList_DeleteRange( void *Inf, void  *Sup, J_LIST *L )$/;"	f
+JList_Destroy	jList.c	/^void JList_Destroy( J_LIST *L )$/;"	f
+JList_HeadDelete	jList.c	/^J_STATUS JList_HeadDelete( void **Value, J_LIST *L )$/;"	f
+JList_HeadInsert	jList.c	/^J_STATUS JList_HeadInsert( void *Value, J_LIST *L )$/;"	f
+JList_Init	jList.c	/^J_STATUS JList_Init( J_LIST **L, JLIST_METHODS *Op, int AllocateMethods )$/;"	f
+JList_Map	jList.c	/^void JList_Map(void apply(void **Value, void *Input), void *Input, J_LIST *L)$/;"	f
+JList_OrderedInsert	jList.c	/^J_STATUS JList_OrderedInsert( void *Value, J_LIST *L )$/;"	f
+JList_Print	jList.c	/^void JList_Print( J_LIST *L )$/;"	f
+JList_Search	jList.c	/^J_STATUS JList_Search( void *Key, void **OutValue, J_LIST *L )$/;"	f
+JList_isEmpty	jList.c	/^int JList_isEmpty( J_LIST *L )$/;"	f
+JMATRIX_H	jMatrix.h	11;"	d
+JMatrix_AddColumn	jMatrix.c	/^J_STATUS JMatrix_AddColumn(J_MATRIX *M)$/;"	f
+JMatrix_AddRow	jMatrix.c	/^J_STATUS JMatrix_AddRow(J_MATRIX *M)$/;"	f
+JMatrix_AddRowCol	jMatrix.c	/^void JMatrix_AddRowCol(J_MATRIX *M)$/;"	f
+JMatrix_AllocateColumns	jMatrix.c	/^static J_STATUS JMatrix_AllocateColumns(J_MATRIX *M)$/;"	f	file:
+JMatrix_AllocateRows	jMatrix.c	/^static J_STATUS JMatrix_AllocateRows(J_MATRIX *M)$/;"	f	file:
+JMatrix_Destroy	jMatrix.c	/^void JMatrix_Destroy( J_MATRIX *M )$/;"	f
+JMatrix_Get	jMatrix.c	/^J_STATUS JMatrix_Get(void **Data, int Row, int Col, J_MATRIX *M)$/;"	f
+JMatrix_GetCols	jMatrix.c	/^int JMatrix_GetCols(J_MATRIX *M)$/;"	f
+JMatrix_GetRows	jMatrix.c	/^int JMatrix_GetRows(J_MATRIX *M)$/;"	f
+JMatrix_New	jMatrix.c	/^J_STATUS JMatrix_New(int StartRows, int StartCols, INITIALIZER Init, DELETER Delete, J_MATRIX **M)$/;"	f
+JMatrix_Set	jMatrix.c	/^J_STATUS JMatrix_Set(void *Data, int Row, int Col, J_MATRIX *M)$/;"	f
+JNode_GetData	jList.c	/^void *JNode_GetData( NODE *N )$/;"	f
+JSET_METHODS	jSet.h	/^} JSET_METHODS;$/;"	t	typeref:struct:j_set_methods_tag
+JSet_Add	jSet.c	/^J_STATUS JSet_Add(void *Data, J_SET *Set)$/;"	f
+JSet_Delete	jSet.c	/^J_STATUS JSet_Delete(void *Key, J_SET *Set)$/;"	f
+JSet_Destroy	jSet.c	/^void  JSet_Destroy(J_SET *Set)$/;"	f
+JSet_GetNumElem	jSet.c	/^int JSet_GetNumElem(J_SET *Set)$/;"	f
+JSet_GetSize	jSet.c	/^int JSet_GetSize(J_SET *Set)$/;"	f
+JSet_Map	jSet.c	/^void JSet_Map(APPLY apply, void *Input, J_SET *Set)$/;"	f
+JSet_New	jSet.c	/^J_STATUS JSet_New(int Hint, JSET_METHODS *Op, J_SET **Set)$/;"	f
+JSet_Print	jSet.c	/^void JSet_Print( J_SET *Set )$/;"	f
+JSet_Search	jSet.c	/^J_STATUS JSet_Search(void *Key, void **OutValue, J_SET *Set)$/;"	f
+JVERTEX_H	jVertex.h	13;"	d
+JVertex_Compare	jVertex.c	/^int JVertex_Compare( J_VERTEX *Vertex1, J_VERTEX *Vertex2 )$/;"	f
+JVertex_Destroy	jVertex.c	/^void JVertex_Destroy( J_VERTEX *V )$/;"	f
+JVertex_GetData	jVertex.c	/^void *JVertex_GetData( J_VERTEX *V )$/;"	f
+JVertex_GetId	jVertex.c	/^int JVertex_GetId( J_VERTEX *V )$/;"	f
+JVertex_GetLabel	jVertex.c	/^char *JVertex_GetLabel( J_VERTEX *V )$/;"	f
+JVertex_New	jVertex.c	/^J_VERTEX *JVertex_New( char *Label, void *Data, INITIALIZER Init, DELETER Del )$/;"	f
+JVertex_Print	jVertex.c	/^void JVertex_Print( J_VERTEX *V )$/;"	f
+JVertex_SetId	jVertex.c	/^void JVertex_SetId( int Id, J_VERTEX *V )$/;"	f
+J_ARRAY	jArray.h	/^} J_ARRAY;$/;"	t	typeref:struct:j_array_tag
+J_ARRAY_H	jArray.h	12;"	d
+J_EDGE	jEdgeSet.h	/^} J_EDGE;$/;"	t	typeref:struct:j_edge_tag
+J_EDGE	jGraph.h	/^} J_EDGE;$/;"	t	typeref:struct:j_edge_tag
+J_EDGE_SET	jEdgeSet.h	/^} J_EDGE_SET;$/;"	t	typeref:struct:j_edge_set
+J_EDGE_SET_H	jEdgeSet.h	15;"	d
+J_ERRORS	errors.h	9;"	d
+J_GRAPH	jGraph.h	/^} J_GRAPH;$/;"	t	typeref:struct:j_graph_tag
+J_ITERATOR	jIterator.h	/^typedef struct j_iterator_tag J_ITERATOR;$/;"	t	typeref:struct:j_iterator_tag
+J_ITERATOR_H	jIterator.h	14;"	d
+J_LIST	jList.h	/^} J_LIST;$/;"	t	typeref:struct:list_tag
+J_LIST_H	jList.h	18;"	d
+J_MATRIX	jMatrix.h	/^} J_MATRIX;$/;"	t	typeref:struct:jmatrix_tag
+J_SET	jSet.h	/^} J_SET;$/;"	t	typeref:struct:j_set_tag
+J_SET_H	jSet.h	23;"	d
+J_STATUS	errors.h	/^} J_STATUS;$/;"	t	typeref:enum:__anon1
+J_VERTEX	jVertex.h	/^typedef struct jvertex_tag J_VERTEX;$/;"	t	typeref:struct:jvertex_tag
+Label	jVertex.h	/^	char *Label;     \/**< Etichetta del vertice *\/$/;"	m	struct:jvertex_tag
+ListCreateNewNode	jList.c	/^static NODE *ListCreateNewNode(void *Value, JLIST_METHODS *Op)$/;"	f	file:
+ListOp	jSet.h	/^	JLIST_METHODS *ListOp; \/**< Metodi per operare sulle liste *\/$/;"	m	struct:j_set_tag
+List_LinkNewNode	jList.c	/^static NODE *List_LinkNewNode( NODE *NewNode, NODE *Current, J_STATUS *ReturnStatus )$/;"	f	file:
+List_RecursiveDelete	jList.c	/^static NODE *List_RecursiveDelete(void *Value, NODE *Current, J_STATUS *ReturnStatus, JLIST_METHODS *Op) $/;"	f	file:
+List_RecursiveDeleteRange	jList.c	/^static NODE *List_RecursiveDeleteRange( NODE *Current, void *Inf, void *Sup, JLIST_METHODS *Op )$/;"	f	file:
+List_RecursiveDestroy	jList.c	/^static NODE *List_RecursiveDestroy(NODE *Current, JLIST_METHODS *Op)$/;"	f	file:
+List_RecursiveOrderedInsert	jList.c	/^static NODE *List_RecursiveOrderedInsert ( void *Value, NODE *Current, J_STATUS *ReturnStatus, JLIST_METHODS *Op ) $/;"	f	file:
+List_RecursivePrint	jList.c	/^static void List_RecursivePrint( NODE *Current, JLIST_METHODS *Op )$/;"	f	file:
+List_RecursiveSearch	jList.c	/^static NODE *List_RecursiveSearch( void *Value, NODE *Current, J_STATUS *ReturnStatus, JLIST_METHODS *Op)$/;"	f	file:
+MEM_H	jMem.h	17;"	d
+ManageDuplicate	jList.h	/^	DUPLICATE ManageDuplicate; \/**< Gestisce nodi duplicati *\/$/;"	m	struct:list_op_tag
+Matrix	jMatrix.h	/^	void ***Matrix;       \/**< Matrice di puntatori *\/$/;"	m	struct:jmatrix_tag
+MaxCols	jMatrix.h	/^	int MaxCols;          \/**< Massimo numero di colonne (buffer) *\/$/;"	m	struct:jmatrix_tag
+MaxRows	jMatrix.h	/^	int MaxRows;          \/**< Massimo numero di righe (buffer) *\/$/;"	m	struct:jmatrix_tag
+MemAlloc	jMem.c	/^J_STATUS MemAlloc( size_t Size, void **OutPtr)$/;"	f
+MemCalloc	jMem.c	/^J_STATUS MemCalloc( size_t Count, size_t Size, void **OutPtr)$/;"	f
+MemFree	jMem.c	/^J_STATUS MemFree( void **Ptr )$/;"	f
+MemRealloc	jMem.c	/^J_STATUS MemRealloc( long Nbytes, void **Ptr )$/;"	f
+NODE	jList.h	/^typedef struct node_tag NODE;$/;"	t	typeref:struct:node_tag
+Next	jList.h	/^	NODE *Next; \/**< Puntatore al nodo successivo *\/$/;"	m	struct:node_tag
+NumCmp	jEdgeSet.c	/^int NumCmp( int *Num1, int *Num2 )$/;"	f
+Op	jList.h	/^	JLIST_METHODS *Op; \/**<	 Operazioni relative alla lista *\/$/;"	m	struct:list_tag
+PRINTER	common.h	/^typedef void (*PRINTER)(void *Value);$/;"	t
+Pred	jVertex.h	/^	J_VERTEX *Pred;$/;"	m	struct:jvertex_tag
+Print	jList.h	/^	PRINTER Print;             \/**< Stampa un nodo *\/$/;"	m	struct:list_op_tag
+Print	jSet.h	/^	PRINTER Print;$/;"	m	struct:j_set_methods_tag
+PrintAdjList	jEdgeSet.c	/^static void PrintAdjList(J_LIST **L)$/;"	f	file:
+PrintEdge	jGraph.c	/^static void PrintEdge(J_EDGE **Edge, J_VERTEX *Source)$/;"	f	file:
+PrintVertexAndAdjList	jGraph.c	/^static void PrintVertexAndAdjList(J_VERTEX **Vertex, void *Input)$/;"	f	file:
+RemoveEdgeAdjList	jEdgeSet.c	/^static void RemoveEdgeAdjList(J_VERTEX *Source, J_VERTEX *Destination, J_EDGE_SET *Eset)$/;"	f	file:
+RemoveVertexFromAdjList	jGraph.c	/^static void RemoveVertexFromAdjList(J_VERTEX **Source, J_VERTEX *Destination)$/;"	f	file:
+Rows	jMatrix.h	/^	int Rows;             \/**< Numero di righe attive *\/$/;"	m	struct:jmatrix_tag
+SUCCESS	errors.h	/^	SUCCESS,         \/**< Esito OK *\/$/;"	e	enum:__anon1
+Size	jArray.h	/^	int Size;             \/**< Numero massimo di elementi *\/$/;"	m	struct:j_array_tag
+Size	jEdgeSet.h	/^	int Size;                \/**< Numero massimo di archi *\/$/;"	m	struct:j_edge_set
+Size	jSet.h	/^	int Size;      \/**< Numero di buckets *\/$/;"	m	struct:j_set_tag
+Source	jGraph.c	/^	J_VERTEX *Source;$/;"	m	struct:__anon4	file:
+Source	jGraph.c	/^	J_VERTEX *Source;$/;"	m	struct:__anon5	file:
+SourceId	jEdgeSet.c	/^	int SourceId;$/;"	m	struct:__anon2	file:
+StampaNodoEdge	jEdgeSet.c	/^static void StampaNodoEdge(J_EDGE *Edge) {$/;"	f	file:
+StampaNodoEdge	jGraph.c	/^static void StampaNodoEdge( J_EDGE *Edge )$/;"	f	file:
+Time	jGraph.h	/^	int Time; \/**< Contatore dei tempi di scoperta e terminazione per DFS *\/$/;"	m	struct:j_graph_tag
+VERTEX_GRAPH	jGraph.c	/^} VERTEX_GRAPH;$/;"	t	typeref:struct:__anon4	file:
+VertexCount	jEdgeSet.h	/^	int VertexCount;         \/**< Numero di vertici attuali *\/$/;"	m	struct:j_edge_set
+Vertices	jGraph.h	/^	J_SET *Vertices; \/**< Insieme dei vertici *\/$/;"	m	struct:j_graph_tag
+VisitAdjList	jEdgeSet.c	/^static void VisitAdjList( J_LIST *L, int SourceId, J_MATRIX *AdjMatrix )$/;"	f	file:
+WHITE	jVertex.h	/^	WHITE,$/;"	e	enum:__anon6
+W_LIST_DUP	errors.h	/^	W_LIST_DUP,      \/**< Trovato un duplicato nella lista *\/$/;"	e	enum:__anon1
+W_LIST_NOTFOUND	errors.h	/^	W_LIST_NOTFOUND, \/**< Nodo non trovato nella lista *\/$/;"	e	enum:__anon1
+W_NOTFOUND	errors.h	/^	W_NOTFOUND,      \/**< Elemento non trovato *\/$/;"	e	enum:__anon1
+W_OUTOFBOUND	errors.h	/^	W_OUTOFBOUND,    \/**< Superamento dei limiti dell'array *\/$/;"	e	enum:__anon1
+Weight	jEdgeSet.h	/^	double Weight;         \/**< Peso dell'arco *\/$/;"	m	struct:j_edge_tag
+Weight	jGraph.h	/^	double Weight; \/**< Peso dell'arco *\/$/;"	m	struct:j_edge_tag
+j_array_tag	jArray.h	/^typedef struct j_array_tag$/;"	s
+j_edge_set	jEdgeSet.h	/^typedef struct j_edge_set$/;"	s
+j_edge_tag	jEdgeSet.h	/^typedef struct j_edge_tag$/;"	s
+j_edge_tag	jGraph.h	/^typedef struct j_edge_tag$/;"	s
+j_graph_tag	jGraph.h	/^typedef struct j_graph_tag$/;"	s
+j_iterator_tag	jIterator.c	/^struct j_iterator_tag$/;"	s	file:
+j_set_methods_tag	jSet.h	/^typedef struct j_set_methods_tag$/;"	s
+j_set_tag	jSet.h	/^typedef struct j_set_tag {$/;"	s
+jmatrix_tag	jMatrix.h	/^typedef struct jmatrix_tag {$/;"	s
+jvertex_tag	jVertex.h	/^struct jvertex_tag$/;"	s
+list_op_tag	jList.h	/^typedef struct list_op_tag {$/;"	s
+list_tag	jList.h	/^typedef struct list_tag$/;"	s
+node_tag	jList.h	/^struct node_tag$/;"	s
